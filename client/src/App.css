@@ -1,0 +1,75 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+    background-color: #686de0;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    /* background-color: black; */
+}
+.header ,.todoform{
+    text-align: center;
+    padding: 1rem 0;
+}
+.header h2 {
+    font-size: 4rem;
+    color: #dff9fb;
+    font-weight: 400;
+}   
+.todoform input{
+    padding:0.7rem 1rem;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+
+.todoContainer{
+    display: flex;
+    margin:0  auto;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.6rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    margin-bottom: 0.6rem;
+}
+.todoContainer p{
+    cursor: pointer;
+}
+
+.btn{
+    padding: 0.4rem 0.6rem;
+    background-color: black;
+    color: white;
+    margin-right: 0.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(14, 85, 7);
+}
+.todoEdit input{
+   outline: none;
+   border: none;
+   font-size: 1.2rem;
+}
+.btn.tabs{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+
+}
+.btn.done{
+    font-size: 1rem;
+    background-color: red;
+    float: right;
+}
